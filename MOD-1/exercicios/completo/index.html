@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="pc.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Essa é a pagina que contém tudo ensinado no modulo 1</h1>
+    <hr>
+    <h2>Textos e semantica</h2>
+    <h3>H1-H6/Paragrafos/Linha</h3>
+    <p>Começando temos os niveis de texto que vao do h1-h6, linhas (hr) e paragrafos(p), como estes.</p>
+    <h3>Destaque</h3>
+    <p>temos as tags de destaque como <strong>strong de forte</strong> e <b>b de negrito</b></p>
+    <h3>Enfase</h3>
+    <p>temos as tags de enfase como o <i>i de italico </i>e o <em>em de enfase</em></p>
+    <h3>Formatação/Pre-formtação</h3>
+    <p>temos as tags para <code>deixar as letras todas dos mesmos tamanhos como esse, usando code</code></p>
+    <p>temos as tags para pre formatação usando pre, que é usado para codigos, como esse: </p>
+    <pre>
+        num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+    </pre>
+    <h3>Tamanhos</h3>
+    <p>temos as tags de pequeno e grande que são <small>small</small> e <big>big</big></p>
+    <h3>Marcar</h3>
+    <p>tem a tag de marcar <mark>como marca texto, que é mark</mark></p>
+    <h3>Inserir/Deletar</h3>
+    <p>temos a tag de <ins>inserido</ins> e <del>excluido</del>usando ins e del</p>
+    <h3>Expoente/Quimica</h3>
+    <p>temos as tags de expoente(x<sup>-20</sup>+30) e os simbolos da quimica (H<sub>2</sub>0)</p>
+    <h3>Citações</h3>
+    <p>temos as tags de citações que são q e blockquote</p>
+    <q>Isso é citação, usando &lt;q&gt;</q>
+    <h4>Citação completa</h4>
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
+        "usando essa tag você diz para seu navegador quem é o dono e de onde vem essa frase respeitando os direitos autorais, usando &lt;blockquote&gt;" 
+    </blockquote>
+    <h3>Abreviação</h3>
+    <p>Como dizer pro navegadir que aquilo é uma abreviação</p>
+    <p>exemplo:<abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <h3>Texto invertido</h3>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <h3>Listas</h3>
+    <p>temos tambem as listas:</p>
+    <ol>
+        <li>temos as ordernadas</li>
+        <li>e as não ordernadas</li>
+        <ul type="square">
+            <li>como essa</li>
+            <li>aqui</li>
+        </ul>
+    </ol>
+     <h2>Simbolos e emojis</h2>
+    <p>Depois temos <strong>simbolos</strong>como estes: &lt; e &gt;.</p>
+    <p>Depois temos <strong>emojis</strong>como estes:&#x1F596</p>
+    <h2>Links</h2>
+    <p>Temos os links <br><a href="pagina2.html">clique para ir para a pagina2</a> <br> <a href="pagina3/pagina3.html">clique aqui para ir para a pagina 3</a></p>
+    <a href="pagina2.html" target="_blank">pagina 2 no _blank</a>
+    <h2>Imagens</h2>
+    <h3>Imagens baixadas</h3>
+    <img src="images.jpg" alt="">
+    <h3>Imagens via link</h3>
+    <img style="width: 300px;height: 170px;" src="https://seriemaniacos.tv/wp-content/uploads/2016/08/Dragon-Ball-Super-1x55-1-1068x599.jpg" alt="">
+    <!--usei CSS(Style) porque ficou feio na pagina sem o CSS:)-->
+    <br>
+    <h2>Audios</h2>
+    <audio src="happy-mistake.mp3" preload="none" controls></audio>
+    <br>
+    <audio controls preload="metadata">
+        <source src="10-seconds-loop-2-97528.mp3" >
+    </audio>
+    <br>
+    <h2>Imagens dinamicas</h2>
+    <picture>
+        <source media="(max-width:725px )" srcset="foto-p.png" type="image/png">
+        <source media="(max-width:1025px )" srcset="foto-m.png" type="image/png">
+        <img src="foto-g.png" alt="">
+    </picture>
+    <br>
+    <h2>Videos</h2>
+</body>
+</html>
