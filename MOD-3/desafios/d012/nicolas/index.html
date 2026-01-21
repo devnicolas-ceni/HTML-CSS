@@ -14,7 +14,7 @@
             background-position: right bottom;
             background-size: cover;
             background-attachment: fixed;
-            min-height: 500px;
+            min-height: 400px;
         }
         .fix{
             background-image: url(pacote-d012/imagens/background002.jpg);
@@ -45,12 +45,25 @@
         .cor{
             background-color: white;
         }
-    p{
-        margin: 0px 0px 0px 30px;
-    }
-    .container{
-        margin: auto;
-    }
+        p{
+            margin: 0px 0px 0px 30px;
+        }
+        .container{
+            margin: auto;
+            height: 2000px;
+        }
+        .transparente p{
+            background-color: rgba(0, 0, 0, 0.599);
+            color: white;
+            
+        }
+        footer{
+            background-color: black;
+            color: white;
+            margin: 20px 0px 0px ;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
@@ -78,16 +91,17 @@
             <p>Basta botar uma flor</p>
             <p>E um coração desenhado.</p>
         </div>
-        <div class="cor">
-            <p>Arroba agora não pesa</p>
-            <p>É parte de um endereço</p>
-            <p>Ponto final nem se usa</p>
-            <p>Ou vai até no começo</p>
-            <p>Agora é .com</p>
-            <p>Se o saite é muito bom</p>
-            <p>Ele vale um alto preço.</p>
+        <div class="fixed">
+            <div class="transparente">
+                <p>Arroba agora não pesa</p>
+                <p>É parte de um endereço</p>
+                <p>Ponto final nem se usa</p>
+                <p>Ou vai até no começo</p>
+                <p>Agora é .com</p>
+                <p>Se o saite é muito bom</p>
+                <p>Ele vale um alto preço.</p>
+            </div>
         </div>
-        <div class="fixed"></div>
         <div class="cor">
             <p>Arroba agora não pesa</p>
             <p>É parte de um endereço</p>
@@ -108,5 +122,6 @@
             <p>Ele vale um alto preço.</p>
         </div>
     </div>
+    <footer>Site desenvolvido por Nicolas</footer>
 </body>
 </html>
